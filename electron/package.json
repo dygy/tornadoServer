@@ -1,0 +1,17 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "set-up": "npm install && cd .. && cd py && pip install tornado",
+    "py": "cd .. && cd py && python hw.py",
+    "electron": "electron  main"
+  },
+  "proxy": "http://localhost:8888",
+  "dependencies": {
+    "electron": "^8.0.1"
+  },
+  "author": "dygy",
+  "license": "ISC"
+}
