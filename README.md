@@ -1,5 +1,5 @@
-#В данном тестовом задание: 
-1. есть tornado сервер, который запускался на Windows 10
+#IN this project: 
+1. There are tornado server, which  runs on my Windows 10 (to run on other platform, delete 2 first lines on hw.py)
 2. есть Electron приложение, которое парсит ответ Tornado сервера в таблицу.
 3. in  package json PIP and NPM scripts to install and run
 ## Requirements

@@ -1,9 +1,10 @@
+import asyncio
+asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())  # python-3.8.0a4
+
 import tornado.httpserver
 import tornado.ioloop
 import tornado.options
 import tornado.web
-import asyncio
-asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())  # python-3.8.0a4
 from tornado.options import define, options
 
 define("port", default=8888, help="run on the given port", type=int)
