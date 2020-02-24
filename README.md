@@ -2,7 +2,11 @@
 1. есть tornado сервер, который запускался на Windows 10
 2. есть Electron приложение, которое парсит ответ Tornado сервера в таблицу.
 3. in  package json PIP and NPM scripts to install and run
-
+## Requirements
+1. node
+2. npm
+3. python
+4. pip
 ## To install app
 1. in electron directory run npm command set-up 
 
