@@ -15,4 +15,4 @@
 1. in electron directory run npm py command, 
 2. and than npm electron command; 
 
-    `cd eceltron && npm py && npm electron`
+    `cd electron && npm py && npm electron`
